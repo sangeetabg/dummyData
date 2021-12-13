@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand img{
+    height: auto;
+    width: 100px;
+    /* margin: 10px; */
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+ 
+.row g-0{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#col1{
+    
+    letter-spacing: 1px;
+    line-height: 20px;
+    
+    padding: 100px 30px;
+  
+    background: rgb(55, 120, 136);
+    color: white;
+    
+}
+#col1 img{
+    width: 80%;
+    margin:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#col1y h1{
+    color: white;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 25px 0;
+}
+#col1 p{
+    color: white;
+}
+
+#button{
+    background: rgb(228, 206, 110);
+    font-size: 30px;
+    line-height: 50px;
+    color: rgb(8, 8, 8);
+}
+
+#service h3{
+    padding: 20px;
+    color: rgb(54, 119, 136);
+}
+ h5{
+    color: rgb(28, 83, 97);
+
+}
+#img1{
+    margin: 100px;
+    padding: 30px 10px;
+}
+#img1 p{
+    color: rgb(55, 120, 136);
+    font-size: 20px;
+}
+#img1 input{
+    width: 60%;
+    height: 50px;
+}
+
+#news_icons{
+    border-style: none;
+    margin: 20px;
+    padding: 20px 30px;
+}
+
+
+
+/* footer */
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.footer{
+    background: rgb(55, 120, 136);
+    color: #f5eaea;
+    font-size: 18px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #f7f1f1; 
+}
+.footer h3{
+    color: #fff;
+   margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+min-width: 250px;
+margin-bottom: 20px;
+
+}
+#footer_log{
+    height: auto;
+    width: 150px;
+    align-items: center;  
+    margin-left: 450px; 
+}
+
+.footer-col-3, .footer-col-4 ,.footer-col-1, .footer-col-2  {
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.logo{
+    margin-top: 20px;
+
+}
+.logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #020202;
+    height: 1px;
+    margin: 20px 0;
+}
+
+
+
+.change_content::after{
+content: '';
+animation: changetext 10s infinite linear;
+color: #00b894;
+}
+.h3{
+    color: white;
+}
+
